@@ -7,19 +7,14 @@ export const PrincipalGreetingSection = (): JSX.Element => {
     <section className="w-full py-24 px-4 bg-gradient-to-br from-slate-50 to-blue-50/30">
       <div className="container mx-auto flex flex-col lg:flex-row gap-12 items-center max-w-6xl">
         <div className="relative w-full lg:w-1/2 group">
-          <img
+          <video
             className="w-full h-auto rounded-2xl shadow-2xl transition-transform duration-500 group-hover:scale-105"
-            alt="Video sambutan"
-            src="/video-sambutan.png"
-          />
-          {/* Play button overlay */}
-          <div className="absolute inset-0 flex items-center justify-center">
-            <div className="w-20 h-20 bg-white/90 rounded-full flex items-center justify-center shadow-lg backdrop-blur-sm transition-all duration-300 hover:scale-110 cursor-pointer">
-              <svg className="w-8 h-8 text-blue-600 ml-1" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M8 5v14l11-7z"/>
-              </svg>
-            </div>
-          </div>
+            controls
+          >
+            <source src="/your-video.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+
           <img
             className="absolute w-[170px] h-[130px] bottom-0 left-6 -mb-10 transition-transform duration-300 group-hover:translate-y-2"
             alt="Group"
