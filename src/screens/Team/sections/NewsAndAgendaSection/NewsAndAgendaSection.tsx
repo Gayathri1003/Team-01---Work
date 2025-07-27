@@ -112,7 +112,7 @@ export const NewsAndAgendaSection = (): JSX.Element => {
                             <img
                               className="absolute w-4 h-4 top-2 left-2 -rotate-45 filter brightness-0 invert"
                               alt="Vector"
-                              src="/vector-3.svg"
+                              src="/next.png"
                             />
                           </div>
                         </div>
@@ -151,7 +151,7 @@ export const NewsAndAgendaSection = (): JSX.Element => {
                         <img
                           className="absolute w-4 h-4 top-2 left-2 -rotate-45 filter brightness-0 invert"
                           alt="Vector"
-                          src="/vector-3.svg"
+                          src="/next.png"
                         />
                       </div>
                     </div>
