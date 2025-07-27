@@ -22,7 +22,7 @@ export const MainContentSection = (): JSX.Element => {
       <img
         className="w-[59px] h-[53px] object-cover transition-transform duration-300 hover:scale-110"
         alt="Logo"
-        src="/school.png"
+        src="/logo.png"
       />
 
       {/* Navigation Menu */}
