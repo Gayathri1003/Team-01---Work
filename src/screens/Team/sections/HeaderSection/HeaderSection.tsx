@@ -3,7 +3,7 @@ import { Button } from "../../../../components/ui/button";
 
 export const HeaderSection = (): JSX.Element => {
   return (
-    <header className="relative w-full h-[600px] bg-transparent bg-[url(/Hero.jpeg)] bg-cover bg-center overflow-hidden">
+    <header className="relative w-full h-[600px] bg-transparent bg-[url(/main.png)] bg-cover bg-center overflow-hidden">
       {/* Overlay for better text readability */}
       <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-black/30 to-transparent"></div>
       
