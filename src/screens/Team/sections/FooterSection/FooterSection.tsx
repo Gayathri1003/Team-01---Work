@@ -32,7 +32,7 @@ export const FooterSection = (): JSX.Element => {
           <img
             className="w-[80px] h-20 object-cover mb-8 transition-transform duration-300 hover:scale-110"
             alt="School Logo"
-            src="/image-12-2.png"
+            src="/logo.png"
           />
           <div className="font-['Open_Sans',Helvetica] text-base tracking-[0.30px] leading-8 text-gray-300 mb-3">
             Bihiya Chaurasta Bhojpur Bihar (802154)
